@@ -5,6 +5,6 @@ services:
     image: ghcr.io/open-webui/mcpo:main
     container_name: mcpo
     ports:
-      - "8000:8000"
+      - "8050:8000"
     command: >
       --port 8000
